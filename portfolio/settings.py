@@ -76,7 +76,7 @@ DATABASES = {
         
     }
 }
-DATABASES['default']= dj_database_url.config(default ='postgres://lvqoqqldbdfqyq:6a72d0c28c9e2bc81c11d7c84bbc9aed9ac95c347b058c506cc62c101bff2101@ec2-50-17-193-83.compute-1.amazonaws.com:5432/dcnr9apelgrng')
+DATABASES['default']= dj_database_url.config(default ='postgres://xtdxteibcywlvr:8ed14faae5bb77e1eb168270cfd944632aff97ac43ee19c5ec5ac9a273594854@ec2-54-83-17-151.compute-1.amazonaws.com:5432/derjgh0u1lo1l3')
 db_from_env = dj_database_url.config(conn_max_age=600)
 DATABASES['default'].update(db_from_env)
 # Password validation
